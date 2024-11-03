@@ -29,8 +29,8 @@ function Form3() {
         </div>
 
         <h1 className="text-4xl font-bold mt-8">Baby Man jao na! Kitna bhav khaoge 😣</h1>
-        <p className="text-xl mt-2">think one more time😝</p>
-
+        <p className="text-xl mt-2 ">think one more time😝 and click<span className='font-bold  uppercase'> Yes</span></p>
+        
         <div className="flex space-x-4 mt-8">
           <button
             onClick={handleYesClick} // Use the handleYesClick function
