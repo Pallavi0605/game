@@ -19,7 +19,7 @@ function Form3() {
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-[#ffe5e5]">
-      <div className="container flex flex-col text-center items-center gap-5 max-w-[500px] m-5">
+      <div className="container flex flex-col text-center items-center gap-5 max-w-[500px] m-5 p-5 bg-white rounded-lg shadow-lg">
       <div className="flex justify-center mb-4 mt-10"> 
           <img
             src={image}
@@ -28,8 +28,8 @@ function Form3() {
           />
         </div>
 
-        <h1 className="text-4xl font-bold mt-8">Baby Man jao na! Kitna bhav khaogi 😭</h1>
-        <p className="text-xl mt-2">bhut glt baat hai yaar😭</p>
+        <h1 className="text-4xl font-bold mt-8">Baby Man jao na! Kitna bhav khaoge 😣</h1>
+        <p className="text-xl mt-2">think one more time😝</p>
 
         <div className="flex space-x-4 mt-8">
           <button
