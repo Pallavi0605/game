@@ -7,7 +7,7 @@ function Form3() {
 
   // Function to handle the "Yes" button click
   const handleYesClick = () => {
-    navigate("/form4"); // Redirect to Form4
+    navigate("/form5"); // Redirect to Form4
   };
 
   // Function to move an element to a random position
@@ -28,8 +28,8 @@ function Form3() {
           />
         </div>
 
-        <h1 className="text-4xl font-bold mt-8">Baby Man jao na! Kitna bhav khaoge 😣</h1>
-        <p className="text-xl mt-2 ">think one more time😝 and click<span className='font-bold  uppercase'> Yes</span></p>
+        <h1 className="text-4xl font-bold mt-8">We’ll go to the Swaminarayan Mandir on Monday, the 18th </h1>
+        <p className="text-xl mt-2 "> buy ice cream for you <span className='font-bold  uppercase'> Promise</span></p>
         
         <div className="flex space-x-4 mt-8">
           <button

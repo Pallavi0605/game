@@ -6,7 +6,7 @@ function Form() {
   const navigate = useNavigate(); 
 
   const handleNoClick = () => {
-    navigate("/form1"); 
+    navigate("/form2"); 
   };
 
   const handleYesClick = () => {
@@ -24,21 +24,21 @@ function Form() {
           />
         </div>
 
-        <h1 className="text-4xl font-bold mt-4 ">Do you love me? 🤗</h1>
-        {/* <p>for you Aditya 😉   </p> */}
+        <h1 className="text-4xl font-bold mt-4 ">Its my fault 🤗</h1>
+        <p>I love you... I Agree so yes😉   </p>
 
         <div className="flex space-x-4 mt-8">
           <button
             onClick={handleYesClick}
             className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition"
           >
-            Yes
+            Sorry
           </button>
           <button
             onClick={handleNoClick}
             className="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition"
           >
-            No
+            Next
           </button>
         </div>
       </div>

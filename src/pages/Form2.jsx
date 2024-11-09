@@ -28,21 +28,21 @@ function Form2() {
           />
         </div>
 
-        <h1 className="text-4xl font-bold mt-8">Ek aur baar Soch lo! 😣</h1>
-        <p className="text-xl mt-2">kyu aisa kar rahi ho 😣</p>
+        <h1 className="text-4xl font-bold mt-8">Baby! I am Coming on 16th  nov 😣</h1>
+        <p className="text-xl mt-2">I Am Fool i accept it</p>
 
          <div className="flex space-x-4 mt-8">
-          <button
+          {/* <button
             onClick={handleYesClick} // Use the handleYesClick function
             className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition"
           >
             Yes
-          </button>
+          </button> */}
           <button
             onClick={handleNoClick} // Use the handleNoClick function
             className="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition"
           >
-            No
+           Yes
           </button>
         </div>
       </div>
